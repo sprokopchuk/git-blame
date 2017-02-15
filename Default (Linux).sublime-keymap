@@ -1,0 +1,6 @@
+[
+{
+    "keys": ["ctr+alt+b"],
+    "command": "blame"
+}
+]
