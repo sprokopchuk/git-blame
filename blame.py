@@ -11,8 +11,10 @@ class BlameCommand(sublime_plugin.TextCommand):
             begin_line = str(begin_line + 1)
             end_line = str(end_line)
             lines = begin_line + ',' + end_line
-            self.view.window().run_command('exec', {'cmd': ['git', 'blame', '-L', lines, file_name], 'working_dir': folder_name})
-            sublime.status_message("git blame -L " + lines + " " + file_name)
+            self.view.window().run_command('exec', {'cmd': ['git', 'blame', '--date=short', '-L', lines, file_name], 'working_dir': folder_name})
+            self.panel = self.view.window().find_output_panel('exec')
+            self.panel.assign_syntax("Git Blame.sublime-syntax")
+            self.panel.settings().set("color_scheme", "Packages/git-blame/Git Blame.hidden-tmTheme")
 
     def is_enabled(self):
         return self.view.file_name() and len(self.view.file_name()) > 0
