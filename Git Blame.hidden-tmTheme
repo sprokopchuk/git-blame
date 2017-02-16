@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Git Blame</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#272822</string>
+        <key>caret</key>
+        <string>#F8F8F0</string>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+        <key>invisibles</key>
+        <string>#3B3A32</string>
+        <key>lineHighlight</key>
+        <string>#3E3D32</string>
+        <key>selection</key>
+        <string>#49483E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Sha</string>
+      <key>scope</key>
+      <string>string.sha.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E6DB74</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Path</string>
+      <key>scope</key>
+      <string>string.path.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A7E22E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Author</string>
+      <key>scope</key>
+      <string>support.author.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Date</string>
+      <key>scope</key>
+      <string>constant.numeric.date.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#AE81FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Line number</string>
+      <key>scope</key>
+      <string>variable.parameter.line-number.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FD971F</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Source</string>
+      <key>scope</key>
+      <string>text.source.git-blame</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+      </dict>
+    </dict>
+  </array>
+  <key>uuid</key>
+  <string>72174d10-bb12-11e0-962b-112233445577</string>
+</dict>
+</plist>
+
