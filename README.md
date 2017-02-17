@@ -13,6 +13,10 @@ The easiest way to install this is with Package Control
  * Select "Package Control: Install Package" (it'll take a few seconds)
  * Select git-blame when the list appears.
 
+### Screenshot:
+
+![screenshot](https://raw.github.com/sprokopchuk/git-blame/master/ScreenShot.png)
+
 ### Default key bindings
 
 | OS X / Linux | Windows  |
