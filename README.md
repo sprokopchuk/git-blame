@@ -22,3 +22,9 @@ The easiest way to install this is with Package Control
 | OS X / Linux | Windows  |
 |--------------|----------|
 | <kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> |
+
+
+### Previous version
+
+Previous version of this plugin you can find [here](https://github.com/ehamiter/Sublime-Text-2-Plugins/blob/master/blame.py)
+
